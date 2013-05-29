@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE5DF18D173C2D2500A1DDD1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE5DF18C173C2D2500A1DDD1 /* UIKit.framework */; };
+		CE5DF18F173C2D2500A1DDD1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE5DF18E173C2D2500A1DDD1 /* Foundation.framework */; };
+		CE5DF191173C2D2500A1DDD1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE5DF190173C2D2500A1DDD1 /* CoreGraphics.framework */; };
+		CE5DF197173C2D2500A1DDD1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE5DF195173C2D2500A1DDD1 /* InfoPlist.strings */; };
+		CE5DF199173C2D2500A1DDD1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5DF198173C2D2500A1DDD1 /* main.m */; };
+		CE5DF19D173C2D2500A1DDD1 /* DVDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5DF19C173C2D2500A1DDD1 /* DVDAppDelegate.m */; };
+		CE5DF19F173C2D2600A1DDD1 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CE5DF19E173C2D2600A1DDD1 /* Default.png */; };
+		CE5DF1A1173C2D2600A1DDD1 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE5DF1A0173C2D2600A1DDD1 /* Default@2x.png */; };
+		CE5DF1A3173C2D2600A1DDD1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE5DF1A2173C2D2600A1DDD1 /* Default-568h@2x.png */; };
+		CE5DF1AF173C2DCD00A1DDD1 /* AGTCoreDataTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5DF1AE173C2DCD00A1DDD1 /* AGTCoreDataTableViewController.m */; };
+		CE5DF1B2173C2E2200A1DDD1 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE5DF1B1173C2E2200A1DDD1 /* CoreData.framework */; };
+		CE5DF1B5173C30A300A1DDD1 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE5DF1B3173C30A300A1DDD1 /* DataModel.xcdatamodeld */; };
+		CE73D86A173C356E00DAE8BA /* AGTCoreDataStack.m in Sources */ = {isa = PBXBuildFile; fileRef = CE73D869173C356E00DAE8BA /* AGTCoreDataStack.m */; };
+		CE73D871173C3CA400DAE8BA /* DVDNotebookModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CE73D86F173C3CA400DAE8BA /* DVDNotebookModel.m */; };
+		CE73D87A173C505B00DAE8BA /* DVDNoteModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CE73D878173C505B00DAE8BA /* DVDNoteModel.m */; };
+		CE7815B1173DA545002D5D2C /* DVDPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7815AF173DA545002D5D2C /* DVDPhotoViewController.m */; };
+		CE7815B2173DA545002D5D2C /* DVDPhotoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE7815B0173DA545002D5D2C /* DVDPhotoViewController.xib */; };
+		CE7815BD173DABA5002D5D2C /* _DVDNotebookModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7815BA173DABA5002D5D2C /* _DVDNotebookModel.m */; };
+		CE7815BE173DABA5002D5D2C /* _DVDNoteModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7815BC173DABA5002D5D2C /* _DVDNoteModel.m */; };
+		CECD3509173D484E00AC31B7 /* DVDNotebookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CECD3508173D484E00AC31B7 /* DVDNotebookViewController.m */; };
+		CECD350C173D4D3200AC31B7 /* UIViewController+Navigation.m in Sources */ = {isa = PBXBuildFile; fileRef = CECD350B173D4D3200AC31B7 /* UIViewController+Navigation.m */; };
+		CECD3510173D592300AC31B7 /* DVDNoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CECD350F173D592300AC31B7 /* DVDNoteViewController.m */; };
+		CEE1E4A9173D7BC900663F0E /* DVDSNoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE1E4A7173D7BC900663F0E /* DVDSNoteViewController.m */; };
+		CEE1E4AA173D7BC900663F0E /* DVDSNoteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEE1E4A8173D7BC900663F0E /* DVDSNoteViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CE5DF189173C2D2500A1DDD1 /* everPobre.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = everPobre.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE5DF18C173C2D2500A1DDD1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CE5DF18E173C2D2500A1DDD1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CE5DF190173C2D2500A1DDD1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CE5DF194173C2D2500A1DDD1 /* everPobre-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "everPobre-Info.plist"; sourceTree = "<group>"; };
+		CE5DF196173C2D2500A1DDD1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CE5DF198173C2D2500A1DDD1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE5DF19A173C2D2500A1DDD1 /* everPobre-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "everPobre-Prefix.pch"; sourceTree = "<group>"; };
+		CE5DF19B173C2D2500A1DDD1 /* DVDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DVDAppDelegate.h; sourceTree = "<group>"; };
+		CE5DF19C173C2D2500A1DDD1 /* DVDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DVDAppDelegate.m; sourceTree = "<group>"; };
+		CE5DF19E173C2D2600A1DDD1 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		CE5DF1A0173C2D2600A1DDD1 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		CE5DF1A2173C2D2600A1DDD1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CE5DF1AD173C2DCD00A1DDD1 /* AGTCoreDataTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGTCoreDataTableViewController.h; sourceTree = "<group>"; };
+		CE5DF1AE173C2DCD00A1DDD1 /* AGTCoreDataTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGTCoreDataTableViewController.m; sourceTree = "<group>"; };
+		CE5DF1B1173C2E2200A1DDD1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		CE5DF1B4173C30A300A1DDD1 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
+		CE73D868173C356E00DAE8BA /* AGTCoreDataStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGTCoreDataStack.h; sourceTree = "<group>"; };
+		CE73D869173C356E00DAE8BA /* AGTCoreDataStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGTCoreDataStack.m; sourceTree = "<group>"; };
+		CE73D86E173C3CA400DAE8BA /* DVDNotebookModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVDNotebookModel.h; sourceTree = "<group>"; };
+		CE73D86F173C3CA400DAE8BA /* DVDNotebookModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVDNotebookModel.m; sourceTree = "<group>"; };
+		CE73D877173C505B00DAE8BA /* DVDNoteModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVDNoteModel.h; sourceTree = "<group>"; };
+		CE73D878173C505B00DAE8BA /* DVDNoteModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVDNoteModel.m; sourceTree = "<group>"; };
+		CE7815AC173D988B002D5D2C /* settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = settings.h; sourceTree = "<group>"; };
+		CE7815AD173DA111002D5D2C /* DataModel2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel2.xcdatamodel; sourceTree = "<group>"; };
+		CE7815AE173DA545002D5D2C /* DVDPhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVDPhotoViewController.h; sourceTree = "<group>"; };
+		CE7815AF173DA545002D5D2C /* DVDPhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVDPhotoViewController.m; sourceTree = "<group>"; };
+		CE7815B0173DA545002D5D2C /* DVDPhotoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DVDPhotoViewController.xib; sourceTree = "<group>"; };
+		CE7815B9173DABA5002D5D2C /* _DVDNotebookModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _DVDNotebookModel.h; sourceTree = "<group>"; };
+		CE7815BA173DABA5002D5D2C /* _DVDNotebookModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _DVDNotebookModel.m; sourceTree = "<group>"; };
+		CE7815BB173DABA5002D5D2C /* _DVDNoteModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _DVDNoteModel.h; sourceTree = "<group>"; };
+		CE7815BC173DABA5002D5D2C /* _DVDNoteModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _DVDNoteModel.m; sourceTree = "<group>"; };
+		CECD3507173D484E00AC31B7 /* DVDNotebookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVDNotebookViewController.h; sourceTree = "<group>"; };
+		CECD3508173D484E00AC31B7 /* DVDNotebookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVDNotebookViewController.m; sourceTree = "<group>"; };
+		CECD350A173D4D3200AC31B7 /* UIViewController+Navigation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Navigation.h"; sourceTree = "<group>"; };
+		CECD350B173D4D3200AC31B7 /* UIViewController+Navigation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Navigation.m"; sourceTree = "<group>"; };
+		CECD350E173D592300AC31B7 /* DVDNoteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVDNoteViewController.h; sourceTree = "<group>"; };
+		CECD350F173D592300AC31B7 /* DVDNoteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVDNoteViewController.m; sourceTree = "<group>"; };
+		CEE1E4A6173D7BC900663F0E /* DVDSNoteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVDSNoteViewController.h; sourceTree = "<group>"; };
+		CEE1E4A7173D7BC900663F0E /* DVDSNoteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVDSNoteViewController.m; sourceTree = "<group>"; };
+		CEE1E4A8173D7BC900663F0E /* DVDSNoteViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DVDSNoteViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE5DF186173C2D2500A1DDD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE5DF1B2173C2E2200A1DDD1 /* CoreData.framework in Frameworks */,
+				CE5DF18D173C2D2500A1DDD1 /* UIKit.framework in Frameworks */,
+				CE5DF18F173C2D2500A1DDD1 /* Foundation.framework in Frameworks */,
+				CE5DF191173C2D2500A1DDD1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE5DF180173C2D2500A1DDD1 = {
+			isa = PBXGroup;
+			children = (
+				CE5DF1B1173C2E2200A1DDD1 /* CoreData.framework */,
+				CE5DF192173C2D2500A1DDD1 /* coreData */,
+				CE5DF18B173C2D2500A1DDD1 /* Frameworks */,
+				CE5DF18A173C2D2500A1DDD1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE5DF18A173C2D2500A1DDD1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE5DF189173C2D2500A1DDD1 /* everPobre.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE5DF18B173C2D2500A1DDD1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE5DF18C173C2D2500A1DDD1 /* UIKit.framework */,
+				CE5DF18E173C2D2500A1DDD1 /* Foundation.framework */,
+				CE5DF190173C2D2500A1DDD1 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE5DF192173C2D2500A1DDD1 /* coreData */ = {
+			isa = PBXGroup;
+			children = (
+				CE7815AC173D988B002D5D2C /* settings.h */,
+				CE73D872173C3CAB00DAE8BA /* DataModel */,
+				CE73D86B173C358400DAE8BA /* Model */,
+				CE5DF1B0173C2DD300A1DDD1 /* Controller */,
+				CE5DF19B173C2D2500A1DDD1 /* DVDAppDelegate.h */,
+				CE5DF19C173C2D2500A1DDD1 /* DVDAppDelegate.m */,
+				CECD350D173D4D3C00AC31B7 /* Categories */,
+				CE5DF193173C2D2500A1DDD1 /* Supporting Files */,
+			);
+			path = coreData;
+			sourceTree = "<group>";
+		};
+		CE5DF193173C2D2500A1DDD1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE5DF194173C2D2500A1DDD1 /* everPobre-Info.plist */,
+				CE5DF195173C2D2500A1DDD1 /* InfoPlist.strings */,
+				CE5DF198173C2D2500A1DDD1 /* main.m */,
+				CE5DF19A173C2D2500A1DDD1 /* everPobre-Prefix.pch */,
+				CE5DF19E173C2D2600A1DDD1 /* Default.png */,
+				CE5DF1A0173C2D2600A1DDD1 /* Default@2x.png */,
+				CE5DF1A2173C2D2600A1DDD1 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE5DF1B0173C2DD300A1DDD1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CE7815AE173DA545002D5D2C /* DVDPhotoViewController.h */,
+				CE7815AF173DA545002D5D2C /* DVDPhotoViewController.m */,
+				CE7815B0173DA545002D5D2C /* DVDPhotoViewController.xib */,
+				CECD3507173D484E00AC31B7 /* DVDNotebookViewController.h */,
+				CECD3508173D484E00AC31B7 /* DVDNotebookViewController.m */,
+				CE5DF1AD173C2DCD00A1DDD1 /* AGTCoreDataTableViewController.h */,
+				CE5DF1AE173C2DCD00A1DDD1 /* AGTCoreDataTableViewController.m */,
+				CECD350E173D592300AC31B7 /* DVDNoteViewController.h */,
+				CECD350F173D592300AC31B7 /* DVDNoteViewController.m */,
+				CEE1E4A6173D7BC900663F0E /* DVDSNoteViewController.h */,
+				CEE1E4A7173D7BC900663F0E /* DVDSNoteViewController.m */,
+				CEE1E4A8173D7BC900663F0E /* DVDSNoteViewController.xib */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		CE73D86B173C358400DAE8BA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CE73D877173C505B00DAE8BA /* DVDNoteModel.h */,
+				CE73D878173C505B00DAE8BA /* DVDNoteModel.m */,
+				CE73D86E173C3CA400DAE8BA /* DVDNotebookModel.h */,
+				CE73D86F173C3CA400DAE8BA /* DVDNotebookModel.m */,
+				CE73D868173C356E00DAE8BA /* AGTCoreDataStack.h */,
+				CE73D869173C356E00DAE8BA /* AGTCoreDataStack.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		CE73D872173C3CAB00DAE8BA /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				CE5DF1B3173C30A300A1DDD1 /* DataModel.xcdatamodeld */,
+				CE73D87B173C52AA00DAE8BA /* Machine */,
+			);
+			name = DataModel;
+			sourceTree = "<group>";
+		};
+		CE73D87B173C52AA00DAE8BA /* Machine */ = {
+			isa = PBXGroup;
+			children = (
+				CE7815B9173DABA5002D5D2C /* _DVDNotebookModel.h */,
+				CE7815BA173DABA5002D5D2C /* _DVDNotebookModel.m */,
+				CE7815BB173DABA5002D5D2C /* _DVDNoteModel.h */,
+				CE7815BC173DABA5002D5D2C /* _DVDNoteModel.m */,
+			);
+			name = Machine;
+			sourceTree = "<group>";
+		};
+		CECD350D173D4D3C00AC31B7 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				CECD350A173D4D3200AC31B7 /* UIViewController+Navigation.h */,
+				CECD350B173D4D3200AC31B7 /* UIViewController+Navigation.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE5DF188173C2D2500A1DDD1 /* everPobre */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE5DF1A6173C2D2600A1DDD1 /* Build configuration list for PBXNativeTarget "everPobre" */;
+			buildPhases = (
+				CE5DF185173C2D2500A1DDD1 /* Sources */,
+				CE5DF186173C2D2500A1DDD1 /* Frameworks */,
+				CE5DF187173C2D2500A1DDD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = everPobre;
+			productName = coreData;
+			productReference = CE5DF189173C2D2500A1DDD1 /* everPobre.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE5DF181173C2D2500A1DDD1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DVD;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Dvid Silva";
+			};
+			buildConfigurationList = CE5DF184173C2D2500A1DDD1 /* Build configuration list for PBXProject "everPobre" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CE5DF180173C2D2500A1DDD1;
+			productRefGroup = CE5DF18A173C2D2500A1DDD1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE5DF188173C2D2500A1DDD1 /* everPobre */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE5DF187173C2D2500A1DDD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE5DF197173C2D2500A1DDD1 /* InfoPlist.strings in Resources */,
+				CE5DF19F173C2D2600A1DDD1 /* Default.png in Resources */,
+				CE5DF1A1173C2D2600A1DDD1 /* Default@2x.png in Resources */,
+				CE5DF1A3173C2D2600A1DDD1 /* Default-568h@2x.png in Resources */,
+				CEE1E4AA173D7BC900663F0E /* DVDSNoteViewController.xib in Resources */,
+				CE7815B2173DA545002D5D2C /* DVDPhotoViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE5DF185173C2D2500A1DDD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE5DF199173C2D2500A1DDD1 /* main.m in Sources */,
+				CE5DF19D173C2D2500A1DDD1 /* DVDAppDelegate.m in Sources */,
+				CE5DF1AF173C2DCD00A1DDD1 /* AGTCoreDataTableViewController.m in Sources */,
+				CE5DF1B5173C30A300A1DDD1 /* DataModel.xcdatamodeld in Sources */,
+				CE73D86A173C356E00DAE8BA /* AGTCoreDataStack.m in Sources */,
+				CE73D871173C3CA400DAE8BA /* DVDNotebookModel.m in Sources */,
+				CE73D87A173C505B00DAE8BA /* DVDNoteModel.m in Sources */,
+				CECD3509173D484E00AC31B7 /* DVDNotebookViewController.m in Sources */,
+				CECD350C173D4D3200AC31B7 /* UIViewController+Navigation.m in Sources */,
+				CECD3510173D592300AC31B7 /* DVDNoteViewController.m in Sources */,
+				CEE1E4A9173D7BC900663F0E /* DVDSNoteViewController.m in Sources */,
+				CE7815B1173DA545002D5D2C /* DVDPhotoViewController.m in Sources */,
+				CE7815BD173DABA5002D5D2C /* _DVDNotebookModel.m in Sources */,
+				CE7815BE173DABA5002D5D2C /* _DVDNoteModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CE5DF195173C2D2500A1DDD1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE5DF196173C2D2500A1DDD1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE5DF1A4173C2D2600A1DDD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CE5DF1A5173C2D2600A1DDD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE5DF1A7173C2D2600A1DDD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "coreData/everPobre-Prefix.pch";
+				INFOPLIST_FILE = "coreData/everPobre-Info.plist";
+				PRODUCT_NAME = everPobre;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CE5DF1A8173C2D2600A1DDD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "coreData/everPobre-Prefix.pch";
+				INFOPLIST_FILE = "coreData/everPobre-Info.plist";
+				PRODUCT_NAME = everPobre;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE5DF184173C2D2500A1DDD1 /* Build configuration list for PBXProject "everPobre" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE5DF1A4173C2D2600A1DDD1 /* Debug */,
+				CE5DF1A5173C2D2600A1DDD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE5DF1A6173C2D2600A1DDD1 /* Build configuration list for PBXNativeTarget "everPobre" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE5DF1A7173C2D2600A1DDD1 /* Debug */,
+				CE5DF1A8173C2D2600A1DDD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CE5DF1B3173C30A300A1DDD1 /* DataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CE7815AD173DA111002D5D2C /* DataModel2.xcdatamodel */,
+				CE5DF1B4173C30A300A1DDD1 /* DataModel.xcdatamodel */,
+			);
+			currentVersion = CE7815AD173DA111002D5D2C /* DataModel2.xcdatamodel */;
+			path = DataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CE5DF181173C2D2500A1DDD1 /* Project object */;
+}

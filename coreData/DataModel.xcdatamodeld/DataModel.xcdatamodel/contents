@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="1.0" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="2061" systemVersion="12D78" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Note" representedClassName="DVDNoteModel" syncable="YES">
+        <attribute name="content" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dateCreated" attributeType="Date" indexed="YES" syncable="YES"/>
+        <attribute name="dateModified" attributeType="Date" indexed="YES" syncable="YES"/>
+        <attribute name="name" attributeType="String" defaultValueString="New Note" indexed="YES" syncable="YES"/>
+        <attribute name="photo" optional="YES" attributeType="Transformable" allowsExternalBinaryDataStorage="YES" syncable="YES"/>
+        <relationship name="notebook" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Notebook" inverseName="notes" inverseEntity="Notebook" syncable="YES"/>
+    </entity>
+    <entity name="Notebook" representedClassName="DVDNotebookModel" syncable="YES">
+        <attribute name="dateCreated" attributeType="Date" indexed="YES" syncable="YES"/>
+        <attribute name="dateModified" attributeType="Date" indexed="YES" syncable="YES"/>
+        <attribute name="name" attributeType="String" defaultValueString="New Notebook" indexed="YES" syncable="YES"/>
+        <relationship name="notes" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Note" inverseName="notebook" inverseEntity="Note" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Note" positionX="160" positionY="192" width="128" height="135"/>
+        <element name="Notebook" positionX="160" positionY="192" width="128" height="105"/>
+    </elements>
+</model>
